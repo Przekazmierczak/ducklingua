@@ -1,0 +1,13 @@
+# Ignore .exe
+*.exe
+*.out
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore build directory
+build/
+
+*.mylang
+*.duck
+*.gch

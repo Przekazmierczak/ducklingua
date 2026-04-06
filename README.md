@@ -1,4 +1,4 @@
-# Ducklingua - Programming language
+# 🦆 Ducklingua
 
 Ducklingua is a lightweight interpreted programming language built from scratch in C++.
 It features a full pipeline from lexing → parsing → IR generation → virtual machine execution.

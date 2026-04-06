@@ -47,14 +47,10 @@ Source Code (.duck)
 ### Build:
 g++ -std=c++17 *.cpp -o ducklingua
 
-### Run:
-./ducklingua
-
-## Tests
 ### Build in debug mode:
 g++ -std=c++17 -DDEBUG *.cpp -o ducklingua
 
-### Run in debug mode:
+### Run:
 ./ducklingua
 
 ## Example code.duck

@@ -24,45 +24,53 @@ Built-in standard library:
 
 ## Architecture
 
-Source Code (.duck)<br>
-↓<br>
-Lexer<br>
-↓<br>
-Tokens<br>
-↓<br>
-Parser<br>
-↓<br>
-AST<br>
-↓<br>
-IR<br>
-↓<br>
-VM<br>
-↓<br>
-Execution<br>
+```
+Source Code (.duck)
+        ↓
+      Lexer
+        ↓
+      Tokens
+        ↓
+      Parser
+        ↓
+       AST
+        ↓
+       IR
+        ↓
+       VM
+        ↓
+     Execution
+```
 
-## Usage
+## Getting Started
 
 ### Build:
 g++ -std=c++17 *.cpp -o ducklingua
 
+### Run:
+./ducklingua
+
+## Tests
 ### Build in debug mode:
 g++ -std=c++17 -DDEBUG *.cpp ducklingua
 
-### Run:
+### Run in debug mode:
 ./ducklingua
 
 ## Example code.duck
 
-fun fib n;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;if n <= 1;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return n<br>
-&nbsp;&nbsp;&nbsp;&nbsp;return fib(n - 1) + fib(n - 2)<br>
+```duck
+fun fib n;
+    if n <= 1;
+        return n
+    return fib(n - 1) + fib(n - 2)
 
-printn("Enter a number:")<br>
+printn("Enter a number:")
 dec fibb = inputInt()
 
-print("Your fibbonacci number is ")<br>
+print("Your fibonacci number is ")
 printn(fib(fibb))
+```
 
 ## Still missing
 

@@ -39,7 +39,7 @@ Source Code (.duck)
         ↓
        VM
         ↓
-     Execution
+    Execution
 ```
 
 ## Getting Started
@@ -52,7 +52,7 @@ g++ -std=c++17 *.cpp -o ducklingua
 
 ## Tests
 ### Build in debug mode:
-g++ -std=c++17 -DDEBUG *.cpp ducklingua
+g++ -std=c++17 -DDEBUG *.cpp -o ducklingua
 
 ### Run in debug mode:
 ./ducklingua

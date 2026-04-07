@@ -3,6 +3,8 @@
 Ducklingua is a lightweight interpreted programming language built from scratch in C++.
 It features a full pipeline from lexing → parsing → IR generation → virtual machine execution.
 
+![Ducklinguagif](https://github.com/user-attachments/assets/6fd53a16-387a-4d33-92de-7d3d14d3a1a3)
+
 ## Features
 
 - Custom Lexer with indentation-based syntax

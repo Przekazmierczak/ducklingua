@@ -45,13 +45,19 @@ Source Code (.duck)
 ## Getting Started
 
 ### Build:
+```
 g++ -std=c++17 *.cpp -o ducklingua
+```
 
 ### Build in debug mode:
+```
 g++ -std=c++17 -DDEBUG *.cpp -o ducklingua
+```
 
 ### Run:
+```
 ./ducklingua
+```
 
 ## Example code.duck
 
